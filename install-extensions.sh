@@ -1,0 +1,1 @@
+sleep 30;code --install-extension revaturePro.revature-angular-labs
