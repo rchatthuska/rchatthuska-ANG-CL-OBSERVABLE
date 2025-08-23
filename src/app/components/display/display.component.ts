@@ -18,6 +18,7 @@ export class DisplayComponent implements OnInit {
    */
   ngOnInit(): void {
     this.countService.getCounterSeconds().subscribe(updatedValue => this.seconds = updatedValue);
+    this.countService.getCounterMilliseconds().subscribe(updateMs => this.milliseconds = updateMs);
   }
 
 }
